@@ -22,7 +22,7 @@ workout_stats = {
 }
 
 
-# Step d: Calculate total workout minutes using a loop
+# Step d: Calculate total workout minutes using a loop.
 
 for friend, minutes in list(workout_stats.items()):
     workout_stats[f"{friend}_Total"] = sum(minutes)
@@ -76,3 +76,5 @@ lowest_friend = min(totals, key=totals.get)
 
 print("Highest total:", highest_friend, totals[highest_friend])
 print("Lowest total:", lowest_friend, totals[lowest_friend])
+
+# Assignment 1 completed
